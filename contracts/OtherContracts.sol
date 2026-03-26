@@ -18,6 +18,6 @@ contract AddressBookFactory {
         newAddressBook.transferOwnership(msg.sender);
 
         // Return the newly created AddressBook contract
-        return newAddressBook;
+        return newAddressBook; 
     }
-}
+}.
